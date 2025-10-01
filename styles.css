@@ -5,8 +5,8 @@
         }
 
         body {
-            margin-left: 20px; /* Отступ всего контента от левого края */
-            font-size: 25px; /* Исправлено: добавлено "px" */
+            margin-left: auto; /* Отступ всего контента от левого края */
+            font-size: 25;
             font-family: cursive, sans-serif;
             color: #333;
             padding-left: 20px; /* Дополнительный отступ для текста */
@@ -36,7 +36,7 @@
         .nav a {
             color: white;
             text-decoration: none;
-            margin-left: 20px;
+            margin-left: 50px;
             padding: 5px 10px;
         }
 
