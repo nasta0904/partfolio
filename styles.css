@@ -1,38 +1,64 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    margin-left: 20px;
-    font-size: 25;
-    font-family: cursive, sans-serif;
-    color: #333;
-}
+        body {
+            margin-left: 20px; /* Отступ всего контента от левого края */
+            font-size: 25px; /* Исправлено: добавлено "px" */
+            font-family: cursive, sans-serif;
+            color: #333;
+            padding-left: 20px; /* Дополнительный отступ для текста */
+        }
 
-.header {
-    background: #FF7F49;
-    color: #3C2A0B;
-    padding: 50px;
-    margin-bottom: 70px;
-}
+        .header {
+            background: #FF7F49;
+            color: #3C2A0B;
+            padding: 50px;
+            margin-bottom: 70px;
+            padding-left: 20px; /* Отступ текста в хедере */
+        }
 
-.logo {
-    float: left;
-}
+        .logo {
+            float: left;
+            margin-left: 20px; /* Отступ логотипа */
+        }
 
-.logo h1 {
-    font-size: 24px;
-}
+        .logo h1 {
+            font-size: 24px;
+        }
 
+        .nav {
+            padding-left: 20px; /* Отступ навигации */
+        }
 
-.nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    padding: 5px 10px;
-}
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 5px 10px;
+        }
+
+        .nav a:hover {
+            background: #34495e;
+            border-radius: 3px;
+        }
+
+        /* Дополнительные стили для демонстрации */
+        .content {
+            padding: 20px;
+            margin-left: 20px; /* Отступ основного контента */
+        }
+
+        .content h2 {
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
 
 .nav a:hover {
     background: #34495e;
