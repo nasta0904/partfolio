@@ -5,6 +5,7 @@
 }
 
 body {
+    margin-left: auto;
     font-size: 25;
     font-family: cursive, sans-serif;
     line-height: left;
